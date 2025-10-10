@@ -75,13 +75,13 @@ make
 ```
 ## 📁 Project Structure
 ```text
-├── list_algorithms.c      # Lists supported KEMs and SIGs  
-├── kem_demo.c             # Demonstrates Kyber512 key encapsulation  
-├── sig_demo.c             # Demonstrates Falcon-512 digital signature  
-├── report.pdf             # Contains performance results and analysis  
+├── list_algos.c           # Task 1: Lists supported KEMs and SIGs  
+├── kem_kyber512.c         # Task 2: Demonstrates Kyber512 key encapsulation  
+├── sign_falcon512.c       # Task 3: Demonstrates Falcon-512 digital signature  
+├── Report.pdf             # Task 4: Contains performance results and analysis  
 ├── CMakeLists.txt         # Build configuration  
 ├── contriblist.txt        # Contributers List  
-└── README.md              # Project documentation
+└── Readme.md              # Project documentation
 ```  
 
 ## 📊 Results and Analysis of Practicality
