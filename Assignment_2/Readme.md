@@ -100,7 +100,7 @@ For complete data tables and timing metrics, refer to the [full report](./Report
 
 ## 📜 License
 This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](../LICENSE) file for details.
 
 ## 🧠 Key Takeaways
 - PQC focuses on quantum-resistant problems like lattices instead of factoring.
@@ -109,7 +109,7 @@ See the [LICENSE](./LICENSE) file for details.
 - Symmetric cryptography (e.g., AES-256, SHA3) largely remains unaffected but may need longer keys.
 
 ## 👤 Author
-Dr. SowmyaDev Maity || Lohith  || Hemanth || Pranav || Aditya 
+Dr. SowmyaDev Maity || Lohith  || Hemanth || Pranav || Aditya  
 💡 Exploring Quantum-Safe Cryptography with liboqs
 
 ## 📚 References
