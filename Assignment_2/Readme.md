@@ -5,7 +5,7 @@ This project explores **Post-Quantum Cryptography (PQC)** using the [Open Quantu
 It demonstrates how classical public-key cryptosystems like **RSA** and **ECC** are vulnerable to quantum attacks and how **post-quantum algorithms** such as **Kyber** and **Falcon** can replace them.
 
 Through this project, you’ll:
-- Understand the structure and purpose of **KEM** (Key Encapsulation Mechanisms) and **SIG** (Digital Signature Schemes).
+- Explore the **KEM** (Key Encapsulation Mechanisms) and **SIG** (Digital Signature Schemes).
 - Implement practical demos for **key exchange** and **digital signatures** using liboqs.
 - Measure and compare performance and key sizes against classical algorithms.
 
@@ -80,6 +80,7 @@ make
 ├── sig_demo.c             # Demonstrates Falcon-512 digital signature  
 ├── report.pdf             # Contains performance results and analysis  
 ├── CMakeLists.txt         # Build configuration  
+├── contriblist.txt            # Contributers List  
 └── README.md              # Project documentation
 ```  
 
@@ -108,8 +109,7 @@ See the [LICENSE](./LICENSE) file for details.
 - Symmetric cryptography (e.g., AES-256, SHA3) largely remains unaffected but may need longer keys.
 
 ## 👤 Author
-Lohith Kadiyala  
-🎓 Tech & Computer Science Enthusiast  
+Dr. SowmyaDev Maity || Lohith  || Hemanth || Pranav || Aditya 
 💡 Exploring Quantum-Safe Cryptography with liboqs
 
 ## 📚 References
