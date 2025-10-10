@@ -53,7 +53,8 @@ sudo ninja install
 ## 🧰 Compilation
 ```bash
 git clone https://github.com/Fuzzy-programmer/pqc_liboqs_learning.git
-cd pqc_liboqs_learning
+
+cd Assignment_2
 
 gcc kem_kyber512.c -o kem_kyber512 -loqs -lcrypto -lssl
 
@@ -63,9 +64,7 @@ gcc list_algos.c -o list_algo -loqs -lcrypto -lssl
 
 ```
 
-```text
-By using cmake and make
-```
+### By using cmake and make
 
 ```bash
 mkdir build
