@@ -80,7 +80,7 @@ make
 ├── sig_demo.c             # Demonstrates Falcon-512 digital signature  
 ├── report.pdf             # Contains performance results and analysis  
 ├── CMakeLists.txt         # Build configuration  
-├── contriblist.txt            # Contributers List  
+├── contriblist.txt        # Contributers List  
 └── README.md              # Project documentation
 ```  
 
