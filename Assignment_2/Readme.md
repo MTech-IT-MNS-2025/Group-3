@@ -52,7 +52,7 @@ sudo ninja install
 
 ## 🧰 Compilation
 ```bash
-git clone https://github.com/Fuzzy-programmer/pqc_liboqs_learning.git
+git clone https://github.com/MTech-IT-MNS-2025/Group-3.git
 
 cd Assignment_2
 
