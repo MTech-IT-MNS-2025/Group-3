@@ -87,12 +87,12 @@ chat-app/
 │   └── socket.js             # Socket.io server logic
 ├── models/
 │   ├── User.js               # UserSchema from mongodb
-│   └── Message.js 	      # MessageSchema from mongodb
+│   └── Message.js 	          # MessageSchema from mongodb
 ├── pages/                    # Next.js pages (frontend + backend API)
-|   ├── _app.js		      # Apply global css to all the pages
+|   ├── _app.js		            # Apply global css to all the pages
 │   ├── index.js              # Homepage / login page
 │   ├── chat.js               # Chat UI page (frontend)
-|   ├── register.js	      # Register a new user
+|   ├── register.js	          # Register a new user
 |   ├── forgot_password.js    # Forgot Password
 │   └── api/                  # Backend API routes
 │       ├── users.js          # User signup/login API
@@ -104,7 +104,7 @@ chat-app/
 │   └── UserList.js
 ├── hooks/                    # React custom hooks
 │   └── useSocket.js          # Hook for Socket.io client connection
-├── public/                    #public module for app interface images
+├── public/                   # public module for app interface images
 │   └── screenshots/
 |       ├── MessageBubble.js
 │       ├── ChatInput.js
