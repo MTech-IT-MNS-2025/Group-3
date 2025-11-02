@@ -89,7 +89,7 @@ chat-app/
 │   ├── User.js               # UserSchema from mongodb
 │   └── Message.js 	          # MessageSchema from mongodb
 ├── pages/                    # Next.js pages (frontend + backend API)
-|   ├── _app.js		            # Apply global css to all the pages
+|   ├── _app.js		          # Apply global css to all the pages
 │   ├── index.js              # Homepage / login page
 │   ├── chat.js               # Chat UI page (frontend)
 |   ├── register.js	          # Register a new user
