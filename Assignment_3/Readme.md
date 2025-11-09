@@ -79,49 +79,49 @@ Visit:
 ``` text
 chat-app/
 ├── components/
-│ ├── ChatInput.js 			# Chat text input box with typing and send functionality
-│ ├── MessageBubble.js 		# Displays individual chat messages (sent/received)
-│ └── UserList.js 			# Sidebar list showing users, unread count, and online status
+│ ├── ChatInput.js 			 # Chat text input box with typing and send functionality
+│ ├── MessageBubble.js 	 # Displays individual chat messages (sent/received)
+│ └── UserList.js 			 # Sidebar list showing users, unread count, and online status
 │
 ├── hooks/
-│ └── useSocket.js 			# Custom React Hook for managing Socket.IO client connection
+│ └── useSocket.js 			 # Custom React Hook for managing Socket.IO client connection
 │
 ├── lib/
-│ ├── db.js 					# MongoDB connection helper using Mongoose
-│ └── socket.js 				# Socket.IO server setup and real-time presence management
+│ ├── db.js 					   # MongoDB connection helper using Mongoose
+│ └── socket.js 				 # Socket.IO server setup and real-time presence management
 │
 ├── models/
-│ ├── Message.js 				# Message schema: sender, receiver, text, seen/unseen tracking
-│ └── Users.js 				# User schema: username, password, online status, lastSeen, etc.
+│ ├── Message.js 				 # Message schema: sender, receiver, text, seen/unseen tracking
+│ └── Users.js 				   # User schema: username, password, online status, lastSeen, etc.
 │
 ├── pages/
-│ ├── api/ 						# Backend API routes (handled by Next.js)
-│ │ ├── message.js 			# Send and fetch messages API
+│ ├── api/ 						   # Backend API routes (handled by Next.js)
+│ │ ├── message.js 			 # Send and fetch messages API
 │ │ ├── messages/
-│ │ │ └── mark-seen.js 		# Marks messages as seen (updates DB + emits socket event)
-│ │ ├── socket.js 			# Initializes the Socket.IO server (used by frontend)
-│ │ └── users.js 				# Handles user registration, login, and user fetching
+│ │ │ └── mark-seen.js 	 # Marks messages as seen (updates DB + emits socket event)
+│ │ ├── socket.js 			 # Initializes the Socket.IO server (used by frontend)
+│ │ └── users.js 				 # Handles user registration, login, and user fetching
 │ │
-│ ├── _app.js 					# Root wrapper for all pages (global styles, dark mode, toaster)
-│ ├── chat.js 					# Main chat UI page with socket events and message rendering
-│ ├── forgot_password.js 	# Forgot password page (optional for recovery feature)
-│ ├── index.js 				# Login page (entry point for users)
-│ └── register.js 			# Registration page for new users
+│ ├── _app.js 					 # Root wrapper for all pages (global styles, dark mode, toaster)
+│ ├── chat.js 					 # Main chat UI page with socket events and message rendering
+│ ├── forgot_password.js # Forgot password page (optional for recovery feature)
+│ ├── index.js 				   # Login page (entry point for users)
+│ └── register.js 			 # Registration page for new users
 │
 ├── styles/
-│ └── global.css 				# TailwindCSS base styles and dark mode configuration
+│ └── global.css 				 # TailwindCSS base styles and dark mode configuration
 │
-├── server.js 					# Custom Express + Socket.IO server (runs Next.js app)
+├── server.js 					 # Custom Express + Socket.IO server (runs Next.js app)
+├── public/
+│   └── screenshots/     # App interface screenshots or static assets
+|
+├── next.config.js 		   # Next.js configuration file (build settings, optimizations)
+├── tailwind.config.js 	 # TailwindCSS configuration (themes, dark mode, colors)
+├── postcss.config.js 	 # PostCSS setup for TailwindCSS processing
 │
-├── next.config.js 			# Next.js configuration file (build settings, optimizations)
-├── tailwind.config.js 		# TailwindCSS configuration (themes, dark mode, colors)
-├── postcss.config.js 		# PostCSS setup for TailwindCSS processing
-│
-├── .env.local 				# Environment variables (MongoDB URI, JWT_SECRET, etc.)
-├── package.json 				# Project dependencies, scripts, and metadata
-├── package-lock.json 		# Locked dependency versions for consistent installs
-├── LICENSE 					# Project license (MIT or other)
-└── Readme.md 					# Documentation, setup instructions, and developer guide
+├── package.json 				 # Project dependencies, scripts, and metadata
+├── package-lock.json 	 # Locked dependency versions for consistent installs
+└── Readme.md 					 # Documentation, setup instructions, and developer guide
 ```
 
 
