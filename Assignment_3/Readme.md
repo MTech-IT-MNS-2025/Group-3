@@ -21,7 +21,7 @@ The app combines REST APIs for persistence and Socket.io for real-time bi-direct
 ### 🧩 Prerequisites
 | Tool                                                      | Description                               | Version |
 | --------------------------------------------------------- | ----------------------------------------- | ------- |
-| [Node.js](https://nodejs.org/)                            | JavaScript runtime for backend            | >= 18.x |
+| [Node.js](https://nodejs.org/)                            | JavaScript runtime for backend            | >= 20.9.x |
 | [MongoDB](https://www.mongodb.com/try/download/community) | Database for storing user data & messages | Latest  |
 
 
