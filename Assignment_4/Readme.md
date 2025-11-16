@@ -192,11 +192,11 @@ Assignment_4/
 
 ## 🖼️ Screenshots
 
-### 📸 Encryption UI
+### 📸 Encryption
 
 ![HOME](./public/screenshots/HOME.png)
 
-### 📸 WASM Output
+### 📸 Decryption
 
 ![HOMEOUT](./public/screenshots/HOME2.png)
 
@@ -209,3 +209,4 @@ See the [LICENSE](../LICENSE) file for details.
 
 
 ---
+
