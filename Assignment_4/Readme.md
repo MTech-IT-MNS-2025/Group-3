@@ -1,4 +1,4 @@
-# 💬 RC4 Encryption System (WASM + Next.js)
+# 🔐 RC4 Encryption System (WASM + Next.js)
 
 A Web-based **RC4 Encryption/Decryption System** demonstrating how **native C code** can be compiled to **WebAssembly (WASM)** using **Emscripten** and executed inside a **Next.js frontend**.
 This project shows end-to-end integration of C → WASM → JavaScript, enabling secure and fast encryption directly in the browser.
@@ -206,5 +206,6 @@ Assignment_4/
 
 This project is licensed under the MIT License.  
 See the [LICENSE](../LICENSE) file for details.
+
 
 ---
