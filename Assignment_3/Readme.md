@@ -1,4 +1,4 @@
-# 🔐 Real-Time Chat Application
+# 💬 Real-Time Chat Application
 
 A modern **one-to-one real-time chat application** built with **Next.js, MongoDB, and Socket.io**.  
 It supports **user registration, login, persistent chat history, and instant message delivery** using WebSockets.
