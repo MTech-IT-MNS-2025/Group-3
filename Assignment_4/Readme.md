@@ -192,6 +192,10 @@ Assignment_4/
 
 ## 🖼️ Screenshots
 
+### 📸 Home Page UI
+
+![HOME](./public/screenshots/HOME_.png)
+
 ### 📸 Encryption
 
 ![HOME](./public/screenshots/HOME.png)
@@ -209,4 +213,5 @@ See the [LICENSE](../LICENSE) file for details.
 
 
 ---
+
 
