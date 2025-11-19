@@ -206,7 +206,7 @@ source ./emsdk_env.sh
 
 ```bash
 git clone https://github.com/MTech-IT-MNS-2025/Group-3.git
-cd MNS2025028
+cd Lab_Test_MNS2025028
 ```
 
 ### 2️⃣ Install dependencies
