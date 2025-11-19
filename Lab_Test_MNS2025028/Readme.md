@@ -58,8 +58,6 @@ The system performs the complete DH key exchange:
 
 ## 🌐 Key Features
 
-🌐 Key Features
-
 🔐 Real Diffie–Hellman Key Exchange between client & server
 
 🔐 Real Diffie–Hellman Key Exchange between client and server 
