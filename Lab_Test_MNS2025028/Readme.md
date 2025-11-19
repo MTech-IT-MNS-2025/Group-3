@@ -232,7 +232,7 @@ npm start
 ## 🗂️ Project Structure
 
 ```text
-Lab_Test_MNS2025028/
+Lab_Test_MNS2025028/DiffieHellmanExApp/
 ├── hooks
 │   └── useModExp.js
 ├── package.json
