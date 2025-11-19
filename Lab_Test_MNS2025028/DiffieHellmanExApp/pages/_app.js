@@ -1,0 +1,23 @@
+// pages/_app.js
+import '../styles/global.css'; // ← global CSS import here
+import { Toaster } from "react-hot-toast";
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Toaster
+        position="bottom-center"
+        toastOptions={{
+          duration: 2000,
+          style: {
+            background: "#333",
+            color: "#fff",
+          },
+        }}
+      />
+    </>
+  );
+}
+
+export default MyApp;
