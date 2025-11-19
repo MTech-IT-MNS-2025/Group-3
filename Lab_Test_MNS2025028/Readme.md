@@ -52,6 +52,7 @@ The system performs the complete DH key exchange:
 | **Backend**       | Next.js API Routes        | Execute native C program using `child_process` |
 | **Runtime**       | Native GCC C binary       | Fast server-side modular exponentiation        |
 | **Styling**       | TailwindCSS               | Responsive UI                                  |
+| **Platform**      | Fedora Linux              | OS used for development and execution          |
 
 
 ---
@@ -264,13 +265,17 @@ Lab_Test_MNS2025028/DiffieHellmanExApp/
 
 ![HOME](./DiffieHellmanExApp/public/screenshots/HOME_.png)
 
+---
 
+## 🏁 Submission Requirement
+```
+md5sum file_name.zip
+```
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License.  
 See the [LICENSE](../LICENSE) file for details.
-
 
 ---
