@@ -168,7 +168,7 @@ pages/index.js
 hooks/useModExp.js
 styles/global.css
 ```
-### **Step 4: Create Next.js Backend(API)**
+### **Step 5: Create Next.js Backend(API)**
 Server API endpoint executes native C using Node.js:
 ```
 pages/api/useModExpApi.js
