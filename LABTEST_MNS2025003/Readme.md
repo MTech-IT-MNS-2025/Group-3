@@ -53,6 +53,7 @@ The system performs the complete DH key exchange:
 | **Backend**       | Next.js API Routes (`pages/api/compute.js`) | Performs server-side DH computations using WASM or fallback JS |
 | **Cryptography**  | JavaScript BigInt + Web Crypto              | Random number generation & fallback modular exponentiation     |
 | **Styling**       | Inline CSS (no framework)                   | Basic layout and styling in `index.js`                         |
+| **Platform**      | Ubuntu Linux                                   | OS which is used for developing the project        |
 
 ---
 
@@ -177,7 +178,12 @@ LABTEST_MNS2025003/
 └── README.md
 
 ```
+---
 
+## 🏁 Submission Requirement
+```
+md5sum file_name.zip
+```
 ---
 
 ## 📜 License
