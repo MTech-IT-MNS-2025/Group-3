@@ -127,6 +127,9 @@ cd emsdk
 ./emsdk install latest
 ./emsdk activate latest
 source ./emsdk_env.sh
+cd ..
+emcc myProg.c   -O3   -s STANDALONE_WASM=1   -s EXPORTED_FUNCTIONS='["_modexp"]'   -o ./public/myProg.wasm   -Wl,--no-entry
+
 ```
 
 ### 1️⃣ Clone the repository
