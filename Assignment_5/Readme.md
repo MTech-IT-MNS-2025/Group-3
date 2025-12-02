@@ -12,8 +12,6 @@ E2EE demonstrates a secure, real-time chat flow:
 * Store user profiles and message history in MongoDB.
 * Deliver messages instantly via Socket.IO with presence & typing indicators.
 * Use a hybrid post-quantum KEM (WASM Kyber wrapper) + AES-GCM to protect session keys and messages.
-* Desktop Electron integration (optional) for OS-backed secret storage (Keychain / Credential Manager / Secret Service) with a safe browser fallback to IndexedDB-encrypted storage.
-
 ---
 
 ## 🧭 Features
